@@ -1,0 +1,12 @@
+.imgHome{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(4deg, rgba(0,0,0,0.6278886554621849) 0%, rgba(255,0,0,1) 181%);
+}
