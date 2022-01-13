@@ -1,5 +1,6 @@
-    <div class="cover">
-        {{#each couvManga}}
-          {{> couv this}}
-        {{/each}}
-    </div>
+<div id="click">Click on a cover for more details</div>
+<div class="cover">
+  {{#each mangas}}
+   <a href="../../mangas/{{this._id}}"><img src="{{this.cover}}" alt="{{this.name}}"></a>
+  {{/each}}
+</div>
